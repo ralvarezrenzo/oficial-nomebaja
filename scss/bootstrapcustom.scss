@@ -1,0 +1,25 @@
+$primary: #fa6394;
+$secondary: #345963;
+$font-size-base:              1rem !default;
+$h1-font-size:                $font-size-base * 2.6 !default;
+$h2-font-size:                $font-size-base * 2.4 !default;
+
+// fonsize titles H
+// $grid-gutter-width: 0rem;
+
+@import "../node_modules/bootstrap/scss/functions";
+@import "../node_modules/bootstrap/scss/variables";
+@import "../node_modules/bootstrap/scss/mixins";
+
+$custom-colors:(
+    "nomebaja-magenta":#fa6394,
+    "nomebaja-blue": #345963
+);
+$theme-colors: map-merge(
+    $map1: $theme-colors, 
+    $map2: $custom-colors);
+
+// #fa6394
+// #345963
+// Bootstrap
+@import "../node_modules/bootstrap/scss/bootstrap";
