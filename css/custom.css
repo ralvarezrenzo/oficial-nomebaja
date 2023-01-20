@@ -380,6 +380,31 @@ img {
 
 /* BLOG  */
 /* BLOG CARD CUSTOM */
+
+/* VENTAS ARTICULOS */
+.card-ventas{
+    width: 100%;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    gap: 1rem;
+}
+.card-ventas__imagen{
+    width: 100%;
+}
+.card-ventas__text{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.card-ventas__text h2{
+    text-align: center;
+}
+.card-ventas__enlace{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
 @media screen and (min-width:576px) {
 
     /* NAVBAR-MENU PRINCIPAL  */
@@ -529,5 +554,29 @@ img {
     .slider-principal {
         height: 75vh !important;
         /* max-height: 600px !important;   */
+    }
+    /* LUGARES DE VENTAS */
+    /* ARTICULOS VENTAS */
+    .card-ventas{
+        width: 100%;
+        display: flex;
+        flex-wrap: nowrap;
+        flex-direction: row;
+    }
+    .card-ventas__imagen{
+        width: 35%;
+    }
+    .card-ventas__text{
+        width: 60%;
+        display: flex;
+        flex-direction: column;
+    }
+    .card-ventas__text h2{
+        text-align: left;
+    }
+    .card-ventas__enlace{
+        width: 100%;
+        display: flex;
+        justify-content: center;
     }
 }
