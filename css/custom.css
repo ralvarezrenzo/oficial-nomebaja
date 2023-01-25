@@ -249,6 +249,16 @@ img {
     border-radius: 0 0 32px 32px;
     background-attachment: fixed;
 }
+@media screen and (min-width:768px){
+    .heading-banner {
+        background-position: 50% -50px;
+    }
+}
+@media screen and (min-width:992px){
+    .heading-banner {
+        background-position: center initial;
+    }
+}
 
 .heading-banner::before {
     content: " ";
