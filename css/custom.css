@@ -243,7 +243,8 @@ img {
 
 /* HEADING BANNER ALL */
 .heading-banner {
-    background-position: 50% -60px;
+    background-size: cover;
+    background-position: bottom right;
     position: relative;
     border-radius: 0 0 32px 32px;
     background-attachment: fixed;
